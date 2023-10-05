@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-nvml-wrapper.path = "../nvml-wrapper/nvml-wrapper"
+nvml-wrapper = {git = "https://github.com/ArcSecant/nvml-wrapper.git"}

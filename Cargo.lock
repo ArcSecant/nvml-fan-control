@@ -81,6 +81,7 @@ dependencies = [
 [[package]]
 name = "nvml-wrapper"
 version = "0.9.0"
+source = "git+https://github.com/ArcSecant/nvml-wrapper.git#5233435f4064ccd045a379a5aa6bea42f5f823d8"
 dependencies = [
  "bitflags",
  "libloading",
@@ -93,6 +94,7 @@ dependencies = [
 [[package]]
 name = "nvml-wrapper-sys"
 version = "0.7.0"
+source = "git+https://github.com/ArcSecant/nvml-wrapper.git#5233435f4064ccd045a379a5aa6bea42f5f823d8"
 dependencies = [
  "libloading",
 ]
